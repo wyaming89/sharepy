@@ -3,3 +3,28 @@ __pycache__/*
 *.egg-info
 dist
 sp-session.pkl
+
+# 会话文件
+*.pkl
+*-session.pkl
+
+# 个人信息文件
+*personal*
+*test*
+*demo*
+*example*
+
+# 临时文件
+*.tmp
+*.temp
+*.log
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
